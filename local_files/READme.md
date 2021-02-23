@@ -1,4 +1,4 @@
-1. add self.export in ./mmcls/models/classifers/base.py, modify for onnx export
+1. add self.export in ./mmcls/models/classifers/base.py, modify for onnx export \
 2.# add LinearClsHeadExport in mmcls/models/heads/linear_head.py for export without softmax for gra-cam 在配置文件需要将cls head替换成该 head
 3.mm_cls_onnx_infer.py 进行onnx 推理
 4.mm_cls_onnx_export.py输出onnx模型和grad模型
